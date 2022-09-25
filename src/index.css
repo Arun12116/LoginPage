@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.outer-Page {
+  width: 55%;
+  height: 85%;
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.inner-Page {
+  width: 95%;
+  height: 80%;
+  /* border-radius:10px; */
+  /* border: 2px solid blue; */
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-between;
+}
+.login-page{
+  width:65%;
+  height:100%;
+  background-color: white;
+  /* border: 2px solid green; */
+  border-radius:4px;
+  padding:2rem;
+
+}
+
+
+
+.logo span{
+  color: #0eca98;
+  font-weight: bold;
+}
+
+.heading h2{
+  color: #0eca98;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.line1 hr{
+  width: 20%;
+  position: relative;
+  left:10%;
+  border: 2px solid #0eca98 ;
+  border-radius: 5px;
+  
+
+ 
+}
+.icon{
+  display: flex;
+  list-style: none;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.icon li{
+  border-radius: 50%;
+  border:2px solid  rgb(245, 230, 230);
+  padding:0.40rem;
+  margin: 0.23rem;
+  text-align: center;
+}
+.pargarph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(138, 133, 133);
+  margin-left: 1.30rem;
+ 
+}
+legend{
+  width: 2px;
+  height:2rem;
+}
+.inputebox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.email input:hover{
+  border-color: #0eca98;
+
+}
+.password input:hover{
+  border-color: #0eca98;
+}
+.email input{
+  width:120%;
+height:1.45rem;
+margin-top:0.30rem;
+border-radius:0.2rem;
+border: 2px solid grey;
+
+}
+.password input{
+  width:120%;
+  height:1.45rem;
+margin-top:0.30rem;
+border: 2px solid grey;
+border-radius:0.2rem;
+}
+
+.side1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 1rem;
+ 
+
+}
+.side1 p{
+margin: 0.23rem;
+ font-size: small;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Sign button{
+  width:8rem;
+  height:2rem;
+  border-radius: 1rem;
+  background-color:#0eca98;
+  color: #e1e1e1;
+  border: none;
+
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
+  margin-top: 1.90rem;
+  margin-left: 4rem;
+  color: rgb(138, 133, 133);
+  
+}
+.footer li{
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 0.2rem;
+  height: 0.2rem;
+  list-style: none;
+  margin: 1rem;
+  background-color:black;
+}
+.login-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.sin-Up-Page{
+  width:30vw;
+  height:78vh;
+  background-color: #0eca98;
+  border-top-right-radius:4px;
+  border-bottom-right-radius:4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.headind2 h2{
+  color:#e1e1e1 ;
+  font-weight: bolder;
+}
+.line hr{
+  width:3rem;
+  position: relative;
+  left:12%;
+  border: 2px solid #e1e1e1 ;
+  border-radius: 5px;
+  
+
+}
+.para p{
+  width: 15rem;
+  color: #e1e1e1;
+}
+.para span{
+  position: relative;
+  left: 1.98rem;
+}
+.btn2 button{
+  width:8rem;
+  height:2rem;
+  border-radius: 1rem;
+  background-color:#0eca98;
+  color: #e1e1e1;
+  margin-top: 1rem;
+  border: 2px solid #e1e1e1;
+
+}
